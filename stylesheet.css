@@ -26,16 +26,16 @@ header {
 .style-1 {
     text-align: left;
     margin: 40px 0;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 p {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 ul {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     list-style-type: none; /* デフォルトのマーカーを非表示にする */
     padding-left: 0px; /* リストの左の余白をゼロにする */
 }
@@ -53,13 +53,13 @@ ul.custom-list li::before {
     content: "[" counter(custom-counter) "]"; /* カウンターの値を表示 */
 }
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .table-container {
     overflow-x: scroll; /* 横スクロール可能にする */
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 table {
     width: 600px;
@@ -93,6 +93,7 @@ td {
     background: #fefcf9;
 }
 
+
 .container {
     width: 100%;
     padding: 0 15px;
@@ -111,7 +112,7 @@ td {
 }
 
 .top-wrapper {
-    padding: 180px 0 100px 0;
+    padding: 180px 0 50px 0;
     background-image: url(top.png);
     background-size: cover;
     color: white;
